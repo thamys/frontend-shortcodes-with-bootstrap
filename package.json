@@ -1,0 +1,22 @@
+{
+  "name": "frontend-shortcodes-with-bootstrap",
+  "version": "1.0.0",
+  "description": "\"A project to study new features, plugins, components and apply ideas about frontend\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thamys/frontend-shortcodes-with-bootstrap.git"
+  },
+  "author": "thamys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thamys/frontend-shortcodes-with-bootstrap/issues"
+  },
+  "homepage": "https://github.com/thamys/frontend-shortcodes-with-bootstrap#readme",
+  "dependencies": {
+    "pug-bootstrap": "0.0.15"
+  }
+}
