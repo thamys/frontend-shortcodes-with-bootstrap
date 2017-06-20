@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/thamys/frontend-shortcodes-with-bootstrap#readme",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "pug-bootstrap": "0.0.15"
   }
 }
