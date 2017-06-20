@@ -1,0 +1,26 @@
+li.medias{
+    border-radius: 100%;
+}
+
+li.medias > a{
+    text-indent: -999999px;
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    padding: 2px;
+}
+
+li.medias.active{
+    margin-top: -2px;
+}
+
+li.medias.active > a {
+    border: 2px solid #fff;
+    box-sizing: content-box;
+    padding: 0;
+}
+
+.facebook{
+    background-image: url('../img/social-media-brands/png/facebook.png')
+}

@@ -1,0 +1,26 @@
+li.flags{
+    border-radius: 100%;
+}
+
+li.flags > a{
+    text-indent: -999999px;
+    background-size: 20px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    padding: 2px;
+}
+
+li.flags.active{
+    margin-top: -2px;
+}
+
+li.flags.active > a {
+    border: 2px solid #fff;
+    box-sizing: content-box;
+    padding: 0;
+}
+
+.united-states-of-america{
+    background-image: url('../img/countrys-flags/png/united-states-of-america.png')
+}
