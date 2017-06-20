@@ -1,0 +1,19 @@
+.inner.more
+    .languages
+        -
+            var languages =[
+                {text: "English", href:"#", class: "united-states-of-america"},
+                {text: "Portuguese", href:"#", class: "united-states-of-america"},
+                {text: "French", href:"#", class: "united-states-of-america"},
+                {text: "Germany", href:"#", class: "united-states-of-america"}
+            ]
+        +nav-more("flags", languages, 0)
+    .social-media
+        -
+            var medias =[
+                {text: "Facebook", href:"#", class: "facebook"},
+                {text: "Twitter", href:"#", class: "facebook"},
+                {text: "LinkedIn", href:"#", class: "facebook"},
+                {text: "Instagram", href:"#", class: "facebook"}
+            ]
+        +nav-more("medias", medias, "")

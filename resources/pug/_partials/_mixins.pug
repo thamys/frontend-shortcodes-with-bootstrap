@@ -1,0 +1,18 @@
+mixin nav-without-ul(items,active)
+    each item,index in items
+        if(index === active)
+            li.active(role="presentation")
+                a(href=item.href)= item.text
+        else
+            li(role="presentation")
+                a(href=item.href)= item.text
+
+mixin nav-more(li_class, items, active)
+    ul.nav.nav-pills
+        each item,index in items
+            if(index === active)
+                li.active(role="presentation", class=li_class)
+                    a(href=item.href, class=item.class)= item.text
+            else
+                li(role="presentation", class=li_class)
+                    a(href=item.href, class=item.class)= item.text

@@ -1,0 +1,22 @@
+extends ../../../node_modules/pug-bootstrap/_bootstrap.pug
+include ../_partials/_mixins
+
+block head
+    include ../_partials/_head
+    append styles-page
+        link(href='assets/css/layout.css', rel='stylesheet')
+        link(href='assets/css/flags.css', rel='stylesheet')
+        link(href='assets/css/social-media.css', rel='stylesheet')
+
+
+block body
+    // Fixed navbar
+    include ../_partials/_navbar
+
+    // Begin page content
+    .container
+        block content
+    footer.footer
+        .container
+            p.text-muted Place sticky footer content here.
+    
